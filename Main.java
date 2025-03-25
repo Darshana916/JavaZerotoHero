@@ -64,5 +64,34 @@ public class Main {
 
         int dd = 3;
         System.out.println(!(dd<5&&dd<10));  //  Revers result
+
+
+// Java String Methods
+
+        String myStr = "Hello Java";
+        char result = myStr.charAt(6);
+        int res = myStr.codePointAt(0);
+        int re = myStr.codePointBefore(1);
+        int r = myStr.codePointCount(0,5);
+        String myStr1 = "Hello";
+        String myStr2 = "Hello";
+        String myStr3 = "HELLO";
+        String firstName = "John ";
+        String lastName = "Doe";
+        System.out.println(result);   //charAt()
+        System.out.println(res);   //codePointAt()
+        System.out.println(re);   //codePointBefore()
+        System.out.println(r);   //codePointCount()
+        System.out.println(myStr1.compareTo(myStr2));   //compareTo()
+        System.out.println(myStr2.compareToIgnoreCase(myStr3));   //compareToIgnoreCase()
+        System.out.println(firstName.concat(lastName));   //concat()
+        System.out.println(myStr3.contains("HE"));
+        System.out.println(myStr3.contains("E"));
+        System.out.println(myStr3.contains("Hi"));   //contains
+        System.out.println(myStr3.contentEquals("HELLO"));
+        System.out.println(myStr3.contentEquals("e"));
+        System.out.println(myStr3.contentEquals("Hi"));   //contentEquals
+
+
     }
 }
