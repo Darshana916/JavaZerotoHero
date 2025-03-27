@@ -78,6 +78,43 @@ public class Main {
         String myStr3 = "HELLO";
         String firstName = "John ";
         String lastName = "Doe";
+        char[] myStr4= {'H', 'e', 'l', 'l', 'o'};
+        String myStr5= "";
+        myStr5 = myStr5.copyValueOf(myStr4, 0, 5);
+        byte [] resByt = myStr.getBytes();
+        String myStr6 = "Another String";
+        String bytes = "Hello %s! One kilobyte is %,d bytes.";
+        String run = String.format(bytes,"World",1024);
+        String ind = "Hello Planet earth, you are a great planet";
+        String fruits = String.join(" ", "Orang", "Apple", "Mango");
+        String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        String regex = "cat|dog|fish";
+        int offres = myStr.offsetByCodePoints(3,2);
+        String regi1 = "Hello, World";
+        String regi2 = "New World";
+        String str = "I love cats. Cats are very easy to love. Cats are very popular.";
+        String regexi = "(?i)cat";
+        String regexii = " ";
+        String Q = "     Hello World     ";
+
+
+
+        //split()
+        String strMy = "Split a String by spaces, and also punctuation";
+        String regexx = "[,\\.\\s]";
+        String[] myArrays = strMy.split(regexx);
+        for (String s : myArrays) {
+
+
+
+        char[] myArray = {'0','1','2','3','4','5','6','7','8','9'};
+        System.out.println(myArray);
+
+        String hel = "Hello World";
+        myStr.getChars(7, 10,myArray,4);
+        System.out.println(myArray);    //getChars()
+
+
         System.out.println(result);   //charAt()
         System.out.println(res);   //codePointAt()
         System.out.println(re);   //codePointBefore()
@@ -87,10 +124,55 @@ public class Main {
         System.out.println(firstName.concat(lastName));   //concat()
         System.out.println(myStr3.contains("HE"));
         System.out.println(myStr3.contains("E"));
-        System.out.println(myStr3.contains("Hi"));   //contains
+        System.out.println(myStr3.contains("Hi"));   //contains()
         System.out.println(myStr3.contentEquals("HELLO"));
         System.out.println(myStr3.contentEquals("e"));
-        System.out.println(myStr3.contentEquals("Hi"));   //contentEquals
+        System.out.println(myStr3.contentEquals("Hi"));   //contentEquals()
+        System.out.println("Returned Srting :" + myStr5);   //copyValueOf()
+        System.out.println(myStr1.endsWith("Hel"));
+        System.out.println(myStr1.endsWith("lo"));   //endsWith()
+        System.out.println(myStr1.equals(myStr2));
+        System.out.println(myStr1.equals(myStr6));   //equals()
+        System.out.println(run);   //format()
+        System.out.println(resByt[0]); //geBytes()
+        System.out.println(myStr1.hashCode());   //hashCode()
+        System.out.println(ind.indexOf("Planet"));   //indexOf()
+        System.out.println(myStr1.isEmpty());
+        System.out.println(myStr5.isEmpty());   //isEmpty()
+        System.out.println(fruits);   //join()
+        System.out.println(ind.lastIndexOf("planet"));   //lastIndexOf()
+        System.out.println(txt.length());   //length()
+        System.out.println("cat".matches(regex));
+        System.out.println("dog".matches(regex));
+        System.out.println("doggy bag".matches(regex));   //matches()
+        System.out.println(offres);   //offsetByCodePoint
+        System.out.println(regi1.regionMatches(7,regi2,4,5));
+        System.out.println(regi1.regionMatches(0,regi2,0,5));   //regionMaches()
+        System.out.println(myStr.replace('l','p'));   //replace()
+        System.out.println(str.replaceAll(regexi,"dog"));   //replaceAll()
+        System.out.println(str.replaceFirst(regexii," will "));   //replaceFirst()
+        System.out.println(s);   //split()
+        System.out.println(myStr1.startsWith("Hel"));
+        System.out.println(myStr1.startsWith("llo"));   //startsWith
+        System.out.println(myStr.subSequence(6,10));   //subSequence
+        char[] myAArray = myStr.toCharArray();
+        System.out.println(myAArray[0]);   //toCharArray
+        System.out.println(Q);
+        System.out.println(Q.trim());   //trim()
+        char[] myArrayy = {'a','b','c'};
+        System.out.println(String.valueOf(myArrayy));
+        System.out.println(String.valueOf('A'));
+        System.out.println(String.valueOf(true));
+        System.out.println(String.valueOf(4.5f));
+        System.out.println(String.valueOf(12));
+        System.out.println(String.valueOf(1400L));   //valueOf
+
+
+
+        }
+
+
+
 
 
 
