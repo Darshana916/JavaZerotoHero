@@ -169,6 +169,45 @@ public class Main {
 
 
 
+//Adding Numbers and String
+
+        int xxx = 10;
+        int yyy = 20;
+        int zzz = xxx + yyy;
+        System.out.println(zzz);   
+
+        String xxxxx = "10";
+        String yyyyy = "20";
+        String zzzz = "xxxxx + yyyyy" ;
+        System.out.println(zzzz);
+
+        int aaa = 10;
+        String bbbbbb = "20";
+        String uuu = aaa + bbbbbb;
+        System.out.println(uuu);
+
+
+
+//Java Special Characters
+
+//String - Special Character
+
+        String speci = "We are the so called \"vikings\" from the north.";   
+        System.out.println(speci);
+        String tu = "It\'s alright";
+        String tuv = "The character \\ is called backslash";
+        System.out.println(tu);
+        System.out.println(tuv);
+        String tuvw = "Hello\nWorld";   //new line
+        String tuvwx = "Hello\rWorld";   //carriage return
+        String tuvwxy = "Hello\tWorld";   //tab
+        String tuvwxyz = "Hello\bWorld";   //back space
+        System.out.println(tuvw);
+        System.out.println(tuvwx);
+        System.out.println(tuvwxy);
+        System.out.println(tuvwxyz);
+
+
         }
 
 
