@@ -208,12 +208,48 @@ public class Main {
         System.out.println(tuvwxyz);
 
 
+
+//JAVA Math
+
+        System.out.println(Math.max(5,10));   //Math.max
+        System.out.println(Math.min(5,10));   //Math.min
+        System.out.println(Math.sqrt(64));   //Math.sqrt
+        System.out.println(Math.abs(-4.7));   //Math.abs
+        System.out.println(Math.random());   //Math.random
+        int randomNum = (int)(Math.random()*101);
+        System.out.println(randomNum);   //Math.random  0 to 100
+
+
+
+//JAVA Booleans
+
+        
+        System.out.println(x>y);   //boolean   return True
+        System.out.println(10>9);   //boolean   return True
+        System.out.println(10==15);   //equal to   return Fales
+
+
+//Real Life Example with boolean
+
+
+        int myAge = 25;
+        int votingAge = 18;
+        System.out.println(myAge >= votingAge);   //return True
+
+
+//if....else
+
+
+        if (myAge >= votingAge){
+                System.out.println("Old enough to vote!");
+        } else {
+                System.out.println("Not old enough to vote");   //if...else
         }
 
 
 
 
 
-
+        }
     }
 }
