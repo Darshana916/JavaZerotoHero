@@ -248,6 +248,80 @@ public class Main {
 
 
 
+        int xa = 20;
+        int ya = 18;
+        if (xa > ya) {
+                System.out.println("xa is greater than ya");   //x is greter than y  
+        }
+
+
+
+// Java Else
+
+        int time = 20;
+        if(time < 18){
+                System.out.println("Good day");
+        }else{
+                System.out.println("Good evening");   //else
+        }
+
+
+
+//Else if
+
+        int times = 22;
+        if(time < 10){
+                System.out.println ("Good Morning");
+        } else if (times < 18){
+                System.out.println("Good Day");
+        } else {
+                System.out.println("Good Evening");
+        }
+
+
+
+//if....else (Ternary Operator)
+
+        String results = (time < 18 ) ? "Good day" : "Good Evening" ;
+        System.out.println(results);    //ternary operator
+
+
+
+//Java if....else Real life examples
+
+        // "open a door" if the user enters the correct code
+
+        int doorCode = 1337;
+        if (doorCode == 1337) {
+                System.out.println("Correct code. The door is now open");
+        } else {
+                System.out.println("Wrong code. The door remains closed");
+        }
+
+
+        // find out if a number is positive or negative
+
+        int number = 10;
+        if (number>0) {
+                System.out.println("The value is a positive number");
+        } else if (number<0) {
+                System.out.println("The value is a negative number");
+        } else {
+                System.out.println("The value is 0");
+        }
+
+
+        // number is even or odd
+
+        int myNumber = 5;
+        if (myNumber % 2 == 0) {
+                System.out.println (myNumber + " is even");
+        } else {
+                System.out.println( myNumber + " is odd");
+        }
+
+
+
 
 
         }
