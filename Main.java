@@ -321,6 +321,137 @@ public class Main {
         }
 
 
+// Java Switch
+
+//Weekday Number ( day 4)
+
+        int day = 4;
+        switch(day) {
+                case 1 :
+                  System.out.println("Monday");
+                  break;
+                case 2 :
+                  System.out.println("Tuesday");
+                  break;
+                case 3 :
+                  System.out.println("Wednesday");
+                  break;
+                case 4 :
+                  System.out.println("Thursday");
+                  break;
+                case 5 :
+                  System.out.println("Friday");
+                  break;
+                case 6 :
+                  System.out.println("Saturday");
+                  break;
+                case 7 :
+                  System.out.println("Sunday");
+                  break;
+        }
+
+
+//switch default keyword
+
+        int days = 4;
+        switch(days) {
+                case 8 :
+                  System.out.println("Today is Saturday");
+                  break;
+                case 9 :
+                  System.out.println("Today is Sunday");
+                  break;
+                default :
+                  System.out.println("Looking forward to the Weekend");
+        }
+
+
+//Java while loop
+
+        int i = 0;
+        while (i<5) {
+                System.out.println(i);
+                i++;
+        }
+
+//do while loop
+
+        int ii = 0;
+        do {
+                System.out.println(ii);
+                ii++;
+        }
+        while(ii<5);
+
+//while loop real life examples
+
+        int countdown = 3;
+        while (countdown > 0) {
+                System.out.println(countdown);
+                countdown--;
+        }
+        System.out.println("Happy New Year");
+
+
+//while loop with if...else, dice
+
+        int dice = 1;
+        while(dice <= 6) {
+                if(dice < 6) {
+                        System.out.println("No Yatzy");
+                }else{
+                        System.out.println("Yatzy");
+                }
+                dice = dice + 1;
+        }
+
+
+//Java for loop
+
+        for (int iii = 0; iii <= 10; iii = iii+2) {
+                System.out.println(iii);
+        }
+
+
+//nested loop
+
+        //outer loop
+
+        for (int f = 1; f <= 2; f++) {
+                System.out.println("outer:" + f);   //Execute 2 times
+
+                //inner loop
+
+                for (int j = 1; j <= 3; j++) {
+                        System.out.println("Inner:" + j);   //Execute 6 times
+                }
+        }
+
+
+//for each loop
+
+
+        String[] cars = {"volvo","BMW","Ford","Mazda"};
+        for (String iiii : cars) {
+                System.out.println (iiii);
+        }
+
+
+//for loop real life example
+
+        int numb = 2;
+        for ( int multi = 1; multi <= 10; multi++) {
+                System.out.println(numb + "x" + multi + "=" + (numb*multi));
+        }
+
+
+
+
+
+
+
+
+
 
 
 
